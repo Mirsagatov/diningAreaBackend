@@ -45,7 +45,7 @@ const bySubcategory = (subcategory) => fetchAll(BY_SUBCATEGORY_ID, subcategory)
 const newProduct = (
     name, 
     price, 
-    desc, 
+    description, 
     image,
     categoryID, 
     subcategoryID
@@ -53,7 +53,7 @@ const newProduct = (
         NEW_PRODUCT,
         name, 
         price, 
-        desc, 
+        description, 
         image,
         categoryID, 
         subcategoryID

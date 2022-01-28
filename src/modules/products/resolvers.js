@@ -28,7 +28,7 @@ module.exports = {
         id: global => global.product_id,
         name: global => global.product_name,
         price: global => global.product_price,
-        desc: global => global.product_desc,
+        description: global => global.product_desc,
         image: global => global.product_img
     }
 }
